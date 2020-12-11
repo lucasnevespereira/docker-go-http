@@ -6,14 +6,16 @@ Sample Docker Image that starts a Golang HTTP server.
 
 - Created a Dockerfile from golang alpine linux, that copied my go files to the workdir and then runs the go server.
 
-### Build the container from docker image
+- Build the container from docker image
 
+```
 docker build -t lucasnpereira/docker-go-http:latest .
+```
 
-### Run container
+- Run container
 
+```
 docker run -p 4001:4000 lucasnpereira/docker-go-http
+```
 
-### Test
-
-Visit https://localhost:4001
+- Visit https://localhost:4001
