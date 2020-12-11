@@ -19,3 +19,21 @@ docker run -p 4001:4000 lucasnpereira/docker-go-http
 ```
 
 - Visit https://localhost:4001
+
+<hr>
+
+### Additional info
+
+- To stop container :
+
+Lauch another terminal window and run
+
+```
+docker ps
+```
+
+Then copy the CONTAINER ID and run
+
+```
+docker stop <container-id>
+```
