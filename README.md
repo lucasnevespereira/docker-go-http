@@ -10,8 +10,10 @@ Sample Docker Image that starts a Golang HTTP server.
 
 docker build -t lucasnpereira/docker-go-http:latest .
 
-# Run container
+### Run container
 
 docker run -p 4001:4000 lucasnpereira/docker-go-http
 
-# Visit https://localhost:4001
+### Test
+
+Visit https://localhost:4001
